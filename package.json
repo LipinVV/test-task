@@ -1,0 +1,29 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "Byndyusoft test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LipinVV/test-task.git"
+  },
+  "author": "Vitaly Lipin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LipinVV/test-task/issues"
+  },
+  "homepage": "https://github.com/LipinVV/test-task#readme",
+  "dependencies": {
+    "jest": "^28.1.0",
+    "jsdom": "^19.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^28.1.0"
+  }
+}
